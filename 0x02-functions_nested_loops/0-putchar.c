@@ -3,10 +3,10 @@
 /**
  * main - entry point
  *
- * Prints "_putchar" followed by a new line.
+ * Discription: print "_putchar" using putchar prototype 
  *
  * Return: 0
- */
+*/
 int main(void)
 {
 	_putchar('_');
