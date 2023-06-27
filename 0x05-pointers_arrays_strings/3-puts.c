@@ -1,10 +1,9 @@
-
 #include "main.h"
 /**
- * _putchar - prints a string, followed by a new line, to stdout
+ * _puts - prints a string, followed by a new line, to stdout
  * @str: string to print
  */
-void _putchar(char *str)
+void _puts(char *str)
 {
 	while (*str != '\0')
 	{
