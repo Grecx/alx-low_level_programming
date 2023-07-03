@@ -7,15 +7,15 @@
  * @c: The character to fill the memory area with.
  * @n: The number of bytes to be filled.
  *
- * Return: s.
+ * Return: A pointer to the filled memory area @s.
  */
 void *_memset(void *s, int c, size_t n)
 {
-	unsigned int intel;
+	unsigned int index;
 	unsigned char *memory = s, value = c;
 
-	for (intel = 0; intel < n; intel++)
-		memory[intel] = value;
+	for (index = 0; index < n; index++)
+		memory[index] = value;
 
-	return (s);
+	return (memory);
 }
